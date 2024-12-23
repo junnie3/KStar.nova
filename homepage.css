@@ -1,0 +1,195 @@
+.navbar {
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(1,187,255,1) 0%, rgba(101,214,255,1) 5%, rgba(255,255,255,1) 20%, 
+    rgba(255,255,255,1) 80%, rgba(124,220,255,1) 95%, rgba(1,187,255,1) 100%);
+    background-attachment: fixed;
+}
+
+.navbar a{
+    text-align: center;
+    padding:40px;
+    text-decoration: none;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 30px;
+    border-radius: 25px;
+}
+
+img[src="logos/klogol2.PNG"]{
+    width: auto;
+    margin: 0 0px;
+    padding: 20px 10px 10px 10px;
+    vertical-align: middle;
+    display:inline-block;
+    height: 55px;
+    transition: 1s;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+}
+
+.navbar a:hover {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(146,228,60,1) 100%);
+    z-index: -1;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+.navbar li{
+    float: right;
+}
+
+h2{
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+footer{
+    margin-top: 20px;
+    font-family:Verdana,Tahoma, sans-serif;
+    vertical-align: bottom;
+    padding: 15px;
+    background-attachment: fixed;
+    column-width:800px;
+    height: 180px;
+    text-align: center;
+    margin-bottom: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+footer p{
+    font-size: small;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer img {
+    margin-top: 15px;
+}
+
+main{
+    margin: 60px;
+}
+
+/*top video css*/
+
+.content{
+    width: 1280px;
+    height: 720px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+.tl{ /*transition length for video*/
+    width: 8000px;
+    height: 720px;
+    animation: move 32s infinite;
+}
+
+.img video{
+    width: 1280px;
+    height: 720px;
+    float: left;
+}
+
+@keyframes move{0%,21%{margin-left: 0px;}
+                25%,46%{margin-left: -1284px;}
+                50%,71%{margin-left: -2568px;}
+                75%,96%{margin-left: -3852px;}
+                99%,100%{margin-right: 0px;}}
+
+.container img{
+    transition: all 0.5s;
+}
+ 
+.container:hover img{
+    transform: scale(1.025);
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.products a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 200px;
+}
+
+.products a:hover{
+    text-decoration: underline;
+    cursor:pointer; 
+} 
+
+.box{
+    cursor: pointer;
+    max-height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1.5px rgb(0, 0, 0) solid;
+} 
+.new { /*promotion banner*/
+    height: 628px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1.5px rgb(0, 0, 0) solid;
+}
+
+.audio-button {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.audio-button button {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,229,239,1) 41%, rgba(184,180,209,1) 60%, rgba(129,121,173,1) 77%, rgba(61,49,129,1) 100%);
+    border-radius: 15px;
+    padding: 8.5px;
+    border: 1.5px solid rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+footer div img{
+    cursor: pointer;
+}

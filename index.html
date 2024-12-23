@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>KStar-Nova Home</title>
+        <link rel="stylesheet" href="homepage.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+        <div class="navbar">
+        <nav>
+            <ul>
+                <img src="logos/klogol2.PNG" alt="KStarNova">
+                <li><a href="login.html"><img src="pics/user.png" alt="User" height="26" width="26"></a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="content">
+            <div class="tl">
+                <video preload="auto" autoplay="" muted src="musicmv/bpmv.webm" loop="">Your browser does not support the video tag</video>
+                <video preload="auto" autoplay="" muted src="musicmv/ivemv.webm" loop=""></video>
+                <video preload="auto" autoplay="" muted src="musicmv/svtmv.webm" loop=""></video>
+                <video preload="auto" autoplay="" muted src="musicmv/njmv.webm" loop=""></video>
+            </div>
+        </div>
+        </header>
+    <main>
+        <h2>NEW ARTIST</h2>
+        <div class="new"><img src="productpic/banner/katseyebnr.png" alt="Katseye Banner"></div>
+        <audio id="myAudio">
+            <source src="productpic/banner/katseyemessage.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="audio-button">
+            <button onclick="playAudio()" type="button">Play Audio</button>
+            <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+        </div>
+          <script>
+          var x = document.getElementById("myAudio"); 
+          
+          function playAudio() { 
+            x.play(); 
+          } 
+          
+          function pauseAudio() { 
+            x.pause(); 
+          } 
+        </script>
+        <h2>ON SALES</h2>
+        <div class="products">
+            <a href="bp.html"><div class="container">
+            <img class="box" src="productpic/bp/bpbp1.PNG" alt="Born Pink Album Grey Version"></div>BLACKPINK 2nd Album[BORN PINK] BOX SET ver. (Gray Ver.)</a>
+            <a href="svt.html"><div class="container">
+            <img class="box" src="productpic/svt/svtstf3.JPG" alt="Svt Heaven Carat ver"></div>SEVENTEEN 11th Mini Album SEVENTEENTH HEAVEN Carat ver</a>
+            <a href="nj.html"><div class="container">
+            <img class="box" src="productpic/nwjns/nwjnshs1.JPG" alt="NewJeans 'How Sweet' Standard Ver"></div>NEWJEANS 'How Sweet' Standard Ver.(SET)</a>
+            <a href="ive.html"><div class="container">
+            <img class="box" src="productpic/ive/iveis5.JPG" alt="IVE Switch Anyujin Ver"></div>IVE - [IVE SWITCH] 2nd EP Album DIGIPACK ANYUJIN Version</a>
+        </div>   
+        <h2>NEW RELEASE</h2>
+        <div class="new"><a href="bm.html"><img src="productpic/banner/dripbnr.png" alt="Drip"></a></div>
+        <h2>HOT ITEM</h2>
+        <div class="products">
+            <a href="bp.html"><div class="container">
+            <img class="box" src="productpic/bp/bpme1.PNG" alt="Jisoo ME Red ver"></div>JISOO First Single Album [ME] Red ver.</a>
+            <a href="svt.html"><div class="container">
+            <img class="box" src="productpic/svt/svtstf1.JPG" alt="Svt Spill The Feels Std ver"></div>SEVENTEEN 12th Mini Album SPILL THE FEELS (Set)</a>
+            <a href="nj.html"><div class="container">
+            <img class="box" src="productpic/nwjns/nwjnsbb1.JPG" alt="NEWJEANS 1st EP Bluebook Ver"></div>NEWJEANS 1st EP 'New Jeans' Bluebook Ver. (SET)</a>
+            <a href="ive.html"><div class="container">
+            <img class="box" src="productpic/ive/iveis1.JPG" alt="IVE Switch Off Ver"></div>IVE - [IVE SWITCH] 2nd EP Album OFF Version</a>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img src="pics/insta.png" alt="Instagram" height="30" width="30">
+            <img src="pics/facebook.png" alt="Facebook" height="30" width="33">
+            <img src="pics/xlogo.png" alt="X" height="30" width="30"></div>
+        <p>
+            Company Name: KStar-Nova Co., Ltd.<br>
+            Copyright &copy; 2024 KStar-Nova. All Rights Reserved.<br>
+            Customer Support: (+60)12-34567890 | <a href="mailto:kstarnova1234@gmail.com">Email: kstarnova1234@gmail.com</a>
+        </p>
+        <p>
+            <img src="pics/fpxlogo.png" alt="FPX Logo" height="30" width="80">
+            <img src="pics/tnglogo.png" alt="TNG Logo" height="30" width="30">
+            <img src="pics/visalogo.png" alt="Visa Logo" height="30" width="70">
+            <img src="pics/mastercardlogo.png" alt="Mastercard Logo" height="30" width="50">
+            <img src="pics/stripelogo.png" alt="Stripe Logo" height="30" width="60">
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+header{
+
+    text-align: center;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-bottom: 8px;
+}
+
+body {
+    background: rgb(179,145,254);
+    background: linear-gradient(180deg, rgba(179,145,254,1) 0%, rgba(228,215,255,1) 17%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 84%, rgba(231,221,255,1) 92%, rgba(179,145,254,1) 100%);
+    background-attachment: fixed;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.products a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 20%;
+}
+
+.products p:hover{
+    text-decoration:underline;
+    cursor:pointer; 
+} 
+
+.products img{
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+    border: 1.5px rgb(0, 0, 0) solid;
+}
+
+.products button{
+    cursor:pointer;
+    padding: 10px;
+    border:none; 
+    border-radius: 100px; 
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(146,228,60,1) 100%);
+    color: rgb(0, 0, 0); 
+    border: 1.5px solid rgb(0, 0, 0);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+} 
+    
+.products button:hover{
+    background: linear-gradient(180deg, rgb(146,228,60,1) 0%, rgb(255, 255, 255) 100%); 
+}
+
+footer{
+    margin-top: 20px;
+    font-family:Verdana,Tahoma, sans-serif;
+    vertical-align: bottom;
+    padding: 15px;
+    background-attachment: fixed;
+    column-width:800px;
+    height: 180px;
+    text-align: center;
+    margin-bottom: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+footer p{
+    font-size: small;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer img {
+    margin-top: 15px;
+}
+
+main {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing:auto;
+    font-style: normal;
+}
+
+.container{
+    overflow: visible;
+    position: relative;
+}
+
+.container img{
+    transition: all 0.5s;
+}
+ 
+.container:hover img{
+    transform: scale(1.05);
+}
+
+.menu-btn{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background: rgb(255, 255, 255);
+    border: 1.5px rgb(0, 0, 0) solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100%;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+footer div img{
+    cursor: pointer;
+}
